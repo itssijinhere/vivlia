@@ -1,0 +1,162 @@
+body {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-family: 'Montserrat', "sans-serif";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: Montserrat;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.press-logo {
+  width:12%;
+  margin: 20px 20px 50px;
+}
+.testimonials-image{
+  width: 10%;
+  border-radius: 100%;
+  margin:20px;
+}
+
+.fas {
+  color: #121212;
+  padding-bottom: 1rem;
+}
+
+.fas:hover {
+  color:#32CD32;
+}
+
+#title {
+  background-color: #121212;
+  color: #fff;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.container-fluid {
+  padding: 3% 10% 7%;
+
+}
+
+.rotate-img {
+  width:100%;
+  position: relative;
+  padding-top: 25px;
+}
+
+/* feature section */
+#features {
+  padding: 7% 15%;
+  background-color: #ffff;
+  position:relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family:Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  font-family: Ubuntu;
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: Montserrat-Lite;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* testimonials */
+#testimonials {
+  background-color: #121212;
+  font-weight: bold;
+  color: #ffff;
+  text-align: center;
+}
+
+/* press section creds */
+#press {
+  background-color: #ffff;
+  text-align: center;
+  /* padding-bottom: 4%; */
+  margin-top: 10%;
+}
+
+/* pricing section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+ .pricing-column {
+   padding: 3% 2%;
+ }
+
+/* section id cta */
+#cta {
+  background-color: #121212;
+  color:#ffff;
+  padding: 7% 15%;
+  text-align: center;
+}
+ .cta-head {
+   font-family: "Montserrat-Black";
+   font-size: 3.5rem;
+   line-height: 1.5;
+   font-weight:bolder;
+ }
+
+/* footer section */
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.soicon {
+  margin: 20px 10px;
+}
+/* media query */
+@media (max-width: 1028px){
+.rotate-img {
+    position: static;
+     transform: rotate(0);
+   }
+   #title {
+     text-align: center;
+   }
+}
